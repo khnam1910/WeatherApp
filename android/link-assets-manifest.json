@@ -1,0 +1,137 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Segoe UI Bold Italic.ttf",
+      "sha1": "3d4d4e5829dc013f6d4c93e03c439c5afa3b1853"
+    },
+    {
+      "path": "assets/fonts/Segoe UI Bold.ttf",
+      "sha1": "b2b26ea5a35f7c2f107d358f584985aa14218c4d"
+    },
+    {
+      "path": "assets/fonts/Segoe UI Italic.ttf",
+      "sha1": "5fc7be6462d15845217ffa4d609fd904e4c36fea"
+    },
+    {
+      "path": "assets/fonts/Segoe UI.ttf",
+      "sha1": "995e37cfba0e3df9a716891a4cf9a05b38b118f9"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Bold.eot",
+      "sha1": "643cc14e5201c724cf2b9d1707a603ebd9a00a62"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Bold.ttf",
+      "sha1": "89708991c43f7e77e01aa4c0b45ef2d73f7cedd7"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Bold.woff",
+      "sha1": "e339839c4c76e0abb228454286d2c9e3c11e391d"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Bold.woff2",
+      "sha1": "4516f78a3454af593cd4740dc73e1126946c7024"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-BoldItalic.eot",
+      "sha1": "882df0f0999addc94f406cd83df63209e77f8c61"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-BoldItalic.ttf",
+      "sha1": "ec4c3f481499f8f03cb4690f5b51c54f9a932392"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-BoldItalic.woff",
+      "sha1": "8a65c9a0d4cbc220289e1b01d005a005d657cc52"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-BoldItalic.woff2",
+      "sha1": "59e7c3829d6cb1c488c10684930f721d2676d61c"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Italic.eot",
+      "sha1": "034bcbcd40c6db599e8bfbeb4463ccfafa51eec0"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Italic.ttf",
+      "sha1": "899207bb000e511d95ab9ee59facb3cc7b24ba84"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Italic.woff",
+      "sha1": "b30a98a744ff7e8683eabc897e217f858bf34a1c"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Italic.woff2",
+      "sha1": "212a14d9d906aeca8cf2fc809015d60233d007fe"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Light.eot",
+      "sha1": "82c0ad8f7aed94c8dad2d85d6530d3fa0e19a493"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Light.ttf",
+      "sha1": "1eedc97fe615f6c268538bbfa0fb10736f228f1d"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Light.woff",
+      "sha1": "4eb9dc27a711dc7fcda79a27adff1b54957fcce7"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-Light.woff2",
+      "sha1": "fa40acf5ca9149ad5e99eb16cbaae77725782538"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-SemiBold.eot",
+      "sha1": "9f6696050e5b1f60976a84d6c692ef94e1a81478"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-SemiBold.ttf",
+      "sha1": "c0433ed5767617f7e1de8884c983f0fa50acc4d1"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-SemiBold.woff",
+      "sha1": "67437caab1ff322ec9a7a48f2e56f08271279708"
+    },
+    {
+      "path": "assets/fonts/SegoeUI-SemiBold.woff2",
+      "sha1": "be96b4990d7481853253a231bdfbeb8d7e40da37"
+    },
+    {
+      "path": "assets/fonts/SegoeUI.eot",
+      "sha1": "3e4e563a828545f26ff644c943e13c02297e869d"
+    },
+    {
+      "path": "assets/fonts/SegoeUI.ttf",
+      "sha1": "2eb03e5a7eb7e8e90e174dca53b255d55a4825e2"
+    },
+    {
+      "path": "assets/fonts/SegoeUI.woff",
+      "sha1": "034a74f3c51cd2496d304dcc5661bdc4fdcbddbd"
+    },
+    {
+      "path": "assets/fonts/SegoeUI.woff2",
+      "sha1": "eed8b3f30682df1d5407a942bcd6fdfb0aff6f2e"
+    },
+    {
+      "path": "assets/fonts/segoeuithibd.ttf",
+      "sha1": "aeb5b83b35454c1f257b8a57e9dc10e8c20162b9"
+    },
+    {
+      "path": "assets/fonts/segoeuithis.ttf",
+      "sha1": "6bea1e76ac91b53ab21a7c199b8484cc392caf1e"
+    },
+    {
+      "path": "assets/fonts/segoeuithisi.ttf",
+      "sha1": "f3cface41a840d06e483d2f31c1d2834bd317826"
+    },
+    {
+      "path": "assets/fonts/segoeuithisz.ttf",
+      "sha1": "248fca6c966755d90b9353ee8f92313218fdc35f"
+    },
+    {
+      "path": "assets/fonts/stylesheet.css",
+      "sha1": "c93f3d19c5556f1841827a1abd50eb1b33aca01e"
+    }
+  ]
+}
