@@ -5,7 +5,7 @@ import TextComponent from './TextComponent';
 import { fontFamily } from '../utils/constants/fontFamily';
 
 interface Props {
-    text: string,
+    text?: string,
     font?: string,
     size?: number,
     color?: string,
@@ -22,7 +22,7 @@ const TitleComponent = (props: Props) => {
             size={size ?? 20}
             font={font ?? fontFamily.bold}
             color={color}
-            text={text}
+            text={text ? text : ""}
             styles={styles}
         />
     )

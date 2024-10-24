@@ -19,7 +19,7 @@ interface Props {
 
 const TextComponent = (props: Props) => {
 
-    const { text, size, color, font, flex, marginBottom, styles } = props
+    const { text = "", size, color, font, flex, marginBottom, styles } = props
 
     return (
         <View>
@@ -34,7 +34,7 @@ const TextComponent = (props: Props) => {
                 },
                 styles
             ]}>
-                {text}
+                {text ? text : ""}
             </Text>
         </View>
     )
