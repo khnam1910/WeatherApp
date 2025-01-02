@@ -2,7 +2,7 @@ import axios from "axios";
 import { apiKey } from '../utils/constants/apiKey'
 import { ReceiptText } from "iconsax-react-native";
 
-const forecastEndPoint = params => `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${params.cityName}&days=${params.days}&aqi=no&alerts=no`
+const forecastEndPoint = params => `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${params.cityName}&days=10&aqi=no&alerts=no`
 const locationsEndPoint = params => `http://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${params.cityName}`;
 
 const apiCall = async (endpoint) => {

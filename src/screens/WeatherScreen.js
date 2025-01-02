@@ -34,7 +34,7 @@ const WeatherScreen = () => {
         setLocations([]);
         fetchWeatherForecast({
             cityName: loc.name,
-            days: '7'
+            Days: '10'
         }).then(data => {
             setWeather(data);
             console.log('got forecast: ', data)
@@ -61,20 +61,20 @@ const WeatherScreen = () => {
             <SectionComponent style={localStyles.forecastContainer}>
                 <View style={localStyles.centeredContent}>
                     <Image source={{ uri: "https:" + current?.condition?.icon }} style={[localStyles.image, { flex: 0 }]} />
-                    <TitleComponent text={current?.temp_c !== undefined ? `${current.temp_c}\u00B0` : ""} size={70} styles={{ flex: 0 }} />
+                    <TitleComponent text={current?.temp_c !== undefined ? `${current.temp_c}\u00B0` : ''} size={70} styles={{ flex: 0 }} />
                     <TextComponent text={current?.condition?.text} size={32} color={colors.white} flex={0} />
                 </View>
             </SectionComponent>
 
             <SectionComponent>
                 <RowComponent justify="space-between">
-                    <WeatherDetail icon={<Wind size={20} color={colors.white} />} text="22km" />
-                    <WeatherDetail icon={<Ionicons name="water-outline" size={20} color={colors.white} />} text="87%" />
+                    <WeatherDetail icon={<Wind size={20} color={colors.white} />} text={`${current?.wind_kph}km`} />
+                    <WeatherDetail icon={<Ionicons name="water-outline" size={20} color={colors.white} />} text={`${current?.humidity}%`} />
                     <WeatherDetail icon={<Clock size={20} color={colors.white} />} text="5:05 AM" />
                 </RowComponent>
             </SectionComponent>
 
-            <DailyForecast />
+            <DailyForecast weather={weather} />
         </View>
     );
 };
